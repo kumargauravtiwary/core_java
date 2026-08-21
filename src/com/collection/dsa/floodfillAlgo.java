@@ -38,7 +38,9 @@ public class floodfillAlgo {
         if (i < 0 || i >= image.length || j < 0 || j >= image[0].length || image[i][j] != oldColor) {
             return;
         }
+        // Change the color of the current pixel
         image[i][j] = newColor;
+        // Recursively call DFS for the neighboring pixels
         dfs(image, i + 1, j, oldColor, newColor); // Down
         dfs(image, i - 1, j, oldColor, newColor); // Up
         dfs(image, i, j + 1, oldColor, newColor); // Right

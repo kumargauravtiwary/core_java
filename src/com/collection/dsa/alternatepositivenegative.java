@@ -14,15 +14,20 @@ public class alternatepositivenegative {
 	public void alternate(int arr[]) {
 		int n = arr.length;
 		int posIndex = 0, negIndex = 1;
+		// Rearrange the array in alternate positive and negative numbers
 		while (posIndex < n && negIndex < n) {
+			// If the current positive number is in the correct position, move to the next positive index
 			if (arr[posIndex] >= 0) {
 				posIndex += 2;
-			} else if (arr[negIndex] < 0) {
+			}// If the current negative number is in the correct position, move to the next negative index 
+			else if (arr[negIndex] < 0) {
 				negIndex += 2;
 			} else {
+				// Swap the positive and negative numbers to place them in the correct positions
 				int temp = arr[posIndex];
 				arr[posIndex] = arr[negIndex];
 				arr[negIndex] = temp;
+				// Move to the next positive and negative indices
 				posIndex += 2;
 				negIndex += 2;
 			}

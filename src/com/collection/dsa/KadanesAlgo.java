@@ -21,22 +21,23 @@ public class KadanesAlgo {
 	        int bestSum = arr[0];
 	        int start = 0, end = 0;
 	        int tempStart = 0;
-
+			// Iterate through the array to find the maximum subarray sum and its indices
 	        for (int i = 1; i < arr.length; i++) {
+				// If the current sum is negative, start a new subarray from the current element
 	            if (currSum < 0) {
 	                currSum = arr[i];
 	                tempStart = i;
 	            } else {
 	                currSum += arr[i];
 	            }
-
+				// Update the best sum and indices if the current sum is greater than the best sum found so far
 	            if (currSum > bestSum) {
 	                bestSum = currSum;
 	                start = tempStart;
 	                end = i;
 	            }
 	        }
-
+			// Return the best sum along with the start and end indices of the maximum subarray
 	        return new int[]{bestSum, start, end};
 	    
 	}

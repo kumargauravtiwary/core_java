@@ -12,8 +12,9 @@ public class kthsmallest {
 	}
 	 
     private static int partition(int[] arr, int low, int high) {
-        // Random pivot
+        // Randomly select a pivot index and swap it with the last element
         int randIdx = ThreadLocalRandom.current().nextInt(low, high + 1);
+        //
         swap(arr, randIdx, high);
         
         int pivot = arr[high];

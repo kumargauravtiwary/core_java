@@ -12,8 +12,9 @@ public class groupanagrams {
     //Group a list of strings into anagram groups.
     public static List<List<String>> groupAnagrams(List<String> words) {
         // Implementation to group anagrams goes here
-        // This is a placeholder for the actual logic
-        return null; // Replace with actual implementation
+        return null; // Placeholder return statement
+       
+       
     }
 
 }

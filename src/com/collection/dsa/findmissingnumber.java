@@ -9,10 +9,11 @@ public class findmissingnumber {
 		
 
 	}
+    //Find the missing number in an array containing numbers from 1 to N with one number missing.
 	public static int missingNumber(int[] nums) {
         int n = nums.length + 1;
         int missing = 0;
-        
+        // XOR all numbers from 1 to N and the elements in the array to find the missing number
         for (int i = 0; i < nums.length; i++) {
             missing ^= (i + 1);   // XOR full range (1 to N)
             missing ^= nums[i];   // XOR array element

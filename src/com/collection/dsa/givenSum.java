@@ -23,9 +23,10 @@ public class givenSum {
 	public List<int[]> allIndexPairs(int[] nums, int target) {
 	    Map<Integer, List<Integer>> map = new HashMap<>();
 	    List<int[]> pairs = new ArrayList<>();
-	    
+	    // Iterate through the array and find pairs that sum to the target
 	    for (int i = 0; i < nums.length; i++) {
 	        int comp = target - nums[i];
+			// If the complement exists in the map, add the pairs to the result list
 	        if (map.containsKey(comp)) {
 	            for (int j : map.get(comp)) {
 	                pairs.add(new int[]{j, i});
