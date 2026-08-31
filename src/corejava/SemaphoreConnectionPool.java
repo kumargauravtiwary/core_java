@@ -1,5 +1,23 @@
 package corejava;
 
+/*
+                 Semaphore
+                 permits = 3
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+    Request-1    Request-2    Request-3
+     CONNECT       CONNECT       CONNECT
+        │            │            │
+        └────────────┼────────────┘
+                     │
+                0 permits
+                     │
+        ┌────────────┴────────────┐
+        ▼                         ▼
+    Request-4                 Request-5
+      WAITING                   WAITING
+*/
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
