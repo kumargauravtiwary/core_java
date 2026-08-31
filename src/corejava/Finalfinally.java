@@ -3,7 +3,7 @@ package corejava;
 /**
  * Demonstrates final, finally, and finalize().
  */
-public class test4 {
+public class Finalfinally {
 
     // ---------- 1. 'final' keyword ----------
     // final variable – cannot be reassigned
