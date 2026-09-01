@@ -1,0 +1,4 @@
+Java is powerful.
+Java is fast.
+Streams make Java powerful.
+Java streams are lazy.
