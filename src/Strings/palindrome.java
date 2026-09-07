@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 //Check if a string is a palindrome ignoring case and non-alphanumeric characters.
 

@@ -1,5 +1,5 @@
 //Find all permutations of a string (with and without duplicates).
-package com.collection.dsa;
+package Strings;
 import java.util.ArrayList;
 
 class findAllpermutations {

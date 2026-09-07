@@ -1,4 +1,4 @@
-package corejava;
+package LinkedList;
 //Detect and remove a cycle in a linked list.
 public class detectloopinlinkedlist {
     // Definition for singly-linked list.

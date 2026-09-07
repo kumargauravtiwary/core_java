@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Arrays;
 
 public class conway {
     //Implement Conway's Game of Life on an in-place 2D grid.

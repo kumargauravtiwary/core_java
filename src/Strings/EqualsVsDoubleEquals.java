@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class EqualsVsDoubleEquals {
 

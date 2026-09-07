@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class FirstNonRepeating {
     //Find the first non-repeating character in a string.

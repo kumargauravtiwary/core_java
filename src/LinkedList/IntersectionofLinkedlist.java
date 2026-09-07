@@ -1,4 +1,4 @@
-package corejava;
+package LinkedList;
 //Find the intersection point of two linked lists.  
 public class IntersectionofLinkedlist {
     // Definition for singly-linked list.
@@ -43,7 +43,8 @@ public class IntersectionofLinkedlist {
 
         ListNode pointerA = headA;
         ListNode pointerB = headB;
-
+        // Traverse both lists. When one pointer reaches the end, redirect it to the head of the other list.
+        // If the lists intersect, the pointers will meet at the intersection point after at most two passes. If they do not intersect, both pointers will eventually become null at the same time. 
         while (pointerA != pointerB) {
             pointerA = (pointerA == null) ? headB : pointerA.next;
             pointerB = (pointerB == null) ? headA : pointerB.next;

@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 
 import java.util.HashSet;
 import java.util.Set;
