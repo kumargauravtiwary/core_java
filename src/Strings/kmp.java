@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class kmp {
     //Implement the KMP (Knuth-Morris-Pratt) string matching algorithm from scratch.

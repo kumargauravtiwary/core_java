@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 //give proper comments before each line to understand the code
 public class kdistance {
     //Find the longest substring with at most K distinct characters.

@@ -10,7 +10,7 @@ public class kthsmallest {
 		}
 		return quickselect(arr, 0, arr.length - 1, k - 1); // Convert to 0-based index
 	}
-	 
+	// Partition method for quickselect 
     private static int partition(int[] arr, int low, int high) {
         // Randomly select a pivot index and swap it with the last element
         int randIdx = ThreadLocalRandom.current().nextInt(low, high + 1);

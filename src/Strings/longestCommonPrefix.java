@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class longestCommonPrefix {
     //Find the longest common prefix among an array of strings.
