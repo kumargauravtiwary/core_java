@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 //Find the row with the maximum number of 1s in a boolean matrix sorted row-wise.
 
 public class max1s { 

@@ -12,7 +12,7 @@ public class PlatformCounter {
 		int result = minPlatforms(arrival, departure);
 		System.out.println("Minimum number of platforms required: " + result);
 	}
-	
+	// Find the minimum number of platforms required for the trains to arrive and depart without delay.
     public static int minPlatforms(int[] arrival, int[] departure) {
         Arrays.sort(arrival);
         Arrays.sort(departure);

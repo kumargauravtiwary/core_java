@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class longestsubstring {
     //Find the longest substring without repeating characters using the sliding windowtechnique.

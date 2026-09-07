@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class makeStringPalindrome {
     //Find the minimum number of insertions to make a string a palindrome.

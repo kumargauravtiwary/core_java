@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Arrays;
 
 class RotateArray {
     public void rotate(int[] nums, int k) {

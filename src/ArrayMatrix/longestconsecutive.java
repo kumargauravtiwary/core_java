@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 
 public class longestconsecutive {
 

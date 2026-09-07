@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class longestpalindromic {
     //Find the longest palindromic substring using expand-around-center and comparewith DP approach.
