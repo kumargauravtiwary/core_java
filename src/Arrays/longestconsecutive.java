@@ -1,5 +1,5 @@
 package Arrays;
-
+//Find the longest consecutive sequence in an unsorted array in O(n).
 public class longestconsecutive {
 
 	// Find the longest consecutive sequence in an unsorted array in O(n).

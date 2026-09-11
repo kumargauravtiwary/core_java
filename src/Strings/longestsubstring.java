@@ -18,6 +18,7 @@ public class longestsubstring {
         java.util.Set<Character> set = new java.util.HashSet<>();
 
         for (int right = 0; right < s.length(); right++) {
+            // If the character at the right pointer is already in the set, move the left pointer to the right until the character is removed from the set
             while (set.contains(s.charAt(right))) {
                 set.remove(s.charAt(left));
                 left++;
