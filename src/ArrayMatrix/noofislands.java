@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 
 //Count the number of islands in a 2D binary grid (DFS/BFS).
 

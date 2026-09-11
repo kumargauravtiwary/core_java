@@ -1,4 +1,4 @@
-package ArrayMatrix;
+package Arrays;
 
 public class longestconsecutive {
 

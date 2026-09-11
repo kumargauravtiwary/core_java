@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;

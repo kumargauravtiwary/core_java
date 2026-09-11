@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 
 public class smallestSubarrayWithSum {
     //Find the smallest subarray with a sum greater than or equal to a given value.

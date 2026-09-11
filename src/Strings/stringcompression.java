@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Strings;
 
 public class stringcompression {
     //Implement string compression (e.g., "aaabbc" -> "a3b2c1").

@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package Slidingwindow;
 //Find the maximum sum of a subarray of size K using a sliding window.
 public class MaxSumSubarray1 {   
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.collection.dsa;
+package ArrayMatrix;
 
 public class wordsearch {
     //Implement a word search in a 2D board (given a word, check if it exists via adjacentcells).
