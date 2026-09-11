@@ -1,5 +1,5 @@
 package Arrays;
-
+//Find the maximum product subarray.
 public class maximumProductSubarray {
 
 	public static void main(String[] args) {

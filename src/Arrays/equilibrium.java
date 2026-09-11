@@ -1,5 +1,5 @@
 package Arrays;
-
+//Find the equilibrium index of an array (left sum equals right sum).
 public class equilibrium {
 
 	public static void main(String[] args) {
@@ -23,6 +23,7 @@ public class equilibrium {
 			totalSum += arr[i];
 		}
 		int leftSum = 0;
+		//Iterate through the array and check if the left sum equals the right sum at each index.
 		for (int i = 0; i < n; i++) {
 			totalSum -= arr[i];
 			if (leftSum == totalSum) {

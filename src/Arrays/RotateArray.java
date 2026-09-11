@@ -1,5 +1,5 @@
 package Arrays;
-
+//Rotate an array to the right by K steps, in place, in O(n) time and O(1) space.
 class RotateArray {
     public void rotate(int[] nums, int k) {
         int n = nums.length;

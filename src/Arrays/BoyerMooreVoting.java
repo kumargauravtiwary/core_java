@@ -1,5 +1,5 @@
 package Arrays;
-
+//Find the majority element (appears more than n/2 times) using Boyer-Moore voting.
 public class BoyerMooreVoting {
 
 	public static void main(String[] args) {
@@ -21,6 +21,7 @@ public class BoyerMooreVoting {
 	        if (count == 0) {
 	            candidate = num;
 	        }
+			//Increment or decrement the count based on whether the current number is the candidate.
 	        count += (num == candidate) ? 1 : -1;
 	    }
 

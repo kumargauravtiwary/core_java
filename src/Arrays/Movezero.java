@@ -1,5 +1,5 @@
 package Arrays;
-
+//Move all zeros in an array to the end while maintaining relative order of non-zeroelements.
 public class Movezero {
 
 	public static void main(String[] args) {

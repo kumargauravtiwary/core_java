@@ -1,5 +1,5 @@
 package Arrays;
-
+//Find the missing number in an array of 1 to N using XOR.
 public class findmissingnumber {
 
 	public static void main(String[] args) {
